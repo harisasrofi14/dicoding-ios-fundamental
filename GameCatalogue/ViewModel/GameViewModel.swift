@@ -7,19 +7,18 @@
 
 import Combine
 
-@MainActor class GameViewModel : ObservableObject {
+@MainActor class GameViewModel: ObservableObject {
     @Published var games = GameList(count: 0, next: "", results: [])
     @Published var loading = false
     
     let service: ServiceProtocol
-    init(service: ServiceProtocol = APIService()){
+    init(service: ServiceProtocol = APIService()) {
         self.service = service
     }
     
-    func loadData(){
+    func loadData() {
         self.loading = true
-        service.fetchGame{
-            result in
+        service.fetchGame { result in
             guard let games = result else {
                 return
             }

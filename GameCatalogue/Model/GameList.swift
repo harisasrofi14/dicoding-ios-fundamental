@@ -7,9 +7,9 @@
 
 import Foundation
 
-struct GameList: Codable{
-    var count : Int
-    var next : String
+struct GameList: Codable {
+    var count: Int
+    var next: String
     var results: [Game]
     
     enum CodingKeys: String, CodingKey {

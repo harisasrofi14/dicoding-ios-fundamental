@@ -25,5 +25,5 @@ struct Game: Codable, Identifiable {
         case playtime
         case metacritic
     }
-}
 
+}

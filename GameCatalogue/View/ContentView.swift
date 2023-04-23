@@ -8,21 +8,26 @@
 import SwiftUI
 
 struct ContentView: View {
-  
     var body: some View {
-        NavigationStack{
-            TabView(){
+        NavigationStack {
+            TabView {
                 GameListView().listStyle(.plain)
-                    .tabItem{
+                    .tabItem {
                         Image(systemName: "square.grid.2x2")
                         Text("Home")
-                    }
-                AboutView().tabItem{
-                    Image(systemName: "person.fill")
-                    Text("About")
-                }
+                    }.tag(1)
+                FavoriteView()
+                    .tabItem {
+                        Image(systemName: "heart.fill")
+                        Text("Favorite")
+                    }.tag(2)
+                AboutView()
+                    .tabItem {
+                        Image(systemName: "person.fill")
+                        Text("About")
+                    }.tag(3)
             }//: TABVIEW
-            .navigationBarTitle(Text("Games Catalogue"),displayMode: .inline)
+            .navigationBarTitle(Text("Games Catalogue"), displayMode: .inline)
         } //: NAVIGATION
         .tint(.orange)
     }
@@ -33,4 +38,3 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
-

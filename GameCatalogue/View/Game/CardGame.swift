@@ -8,10 +8,10 @@
 import SwiftUI
 
 struct CardGame: View {
-    var data : Game
+    var data: Game
     
     var body: some View {
-        HStack{
+        HStack {
             AsyncImage(
                 url: URL(string: data.backgroundImage),
                 content: { image in
@@ -23,21 +23,16 @@ struct CardGame: View {
                     ProgressView()
                         .frame(width: 100, height: 80)
                 }
-                
-            )
-            .cornerRadius(10)
+            ).cornerRadius(10)
             
-            VStack(alignment: .leading,spacing: 8){
-                
+            VStack(alignment: .leading, spacing: 8) {
                 Text(data.name).font(.headline)
                     .lineLimit(2)
-                
-                HStack{
+                HStack {
                     Image(systemName: "star")
                     Text(data.rating.formatted()).font(.subheadline)
                 }
-                
-                HStack{
+                HStack {
                     Image(systemName: "calendar")
                     Text(data.released).font(.subheadline)
                 }
@@ -47,8 +42,11 @@ struct CardGame: View {
 }
 
 struct CardGame_Previews: PreviewProvider {
-    
     static var previews: some View {
-        CardGame(data: Game(id: 3498, name: "Grand Theft Auto V", released: "2013-09-17", backgroundImage: "https://media.rawg.io/media/games/456/456dea5e1c7e3cd07060c14e96612001.jpg", rating: 4.47, playtime: 72, metacritic: 91))
+        CardGame(data: Game(id: 3498, name: "Grand Theft Auto V", released: "2013-09-17",
+                            backgroundImage: "https://media.rawg.io/media/games/456/456dea5e1c7e3cd07060c14e96612001.jpg",
+                            rating: 4.47,
+                            playtime: 72,
+                            metacritic: 91))
     }
 }

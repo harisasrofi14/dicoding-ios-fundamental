@@ -12,30 +12,26 @@ struct GameListView: View {
     @ObservedObject var gameViewModel = GameViewModel()
     
     var body: some View {
-        
-        VStack(alignment: .center){
-            if gameViewModel.loading{
+        VStack(alignment: .center) {
+            if gameViewModel.loading {
                 LoadingIndicator()
             } else {
-                if(gameViewModel.games.results.count > 0){
-                    List(){
-                        ForEach(gameViewModel.games.results){
-                            game in
-                            ZStack(alignment: .leading){
-                                NavigationLink(destination: GameDetailView(gameId: "\(game.id)")){
+                if !gameViewModel.games.results.isEmpty {
+                    List {
+                        ForEach(gameViewModel.games.results) { game in
+                            ZStack(alignment: .leading) {
+                                NavigationLink(destination: GameDetailView(gameId: "\(game.id)")) {
                                     EmptyView()
                                 }.opacity(0)
                                 CardGame(data: game)
                             }
                         }
                     }
-                    
                 } else {
                     Text("Error")
                 }
             }
-            
-        }.onAppear{
+        }.onAppear {
             self.gameViewModel.loadData()
         }
     }

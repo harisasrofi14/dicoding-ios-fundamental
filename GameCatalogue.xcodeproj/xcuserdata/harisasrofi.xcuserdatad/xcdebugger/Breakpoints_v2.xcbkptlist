@@ -14,24 +14,56 @@
             filePath = "GameCatalogue/ViewModel/GameViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "26"
-            endingLineNumber = "26"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
             landmarkName = "loadData()"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3A04704C-C2F5-4AEC-905F-72CC2A784C8B - 4e3c3c9d9e8da34d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Array&lt;GameCatalogue.Game&gt;&gt;) -&gt; () in GameCatalogue.GameViewModel.loadData(sorting: Swift.String) -&gt; ()"
+                  moduleName = "GameCatalogue"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/harisasrofi/workspace/iOSFundamental/NewSubmission/dicoding-ios-fundamental/GameCatalogue/ViewModel/GameViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "163">
+               </Location>
+               <Location
+                  uuid = "3A04704C-C2F5-4AEC-905F-72CC2A784C8B - fc6059ee4e2c56af"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (GameCatalogue.Game, GameCatalogue.Game) -&gt; Swift.Bool in closure #1 (Swift.Optional&lt;Swift.Array&lt;GameCatalogue.Game&gt;&gt;) -&gt; () in GameCatalogue.GameViewModel.loadData(sorting: Swift.String) -&gt; ()"
+                  moduleName = "GameCatalogue"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/harisasrofi/workspace/iOSFundamental/NewSubmission/dicoding-ios-fundamental/GameCatalogue/ViewModel/GameViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "120">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "49B3B76D-2108-4619-9612-9E769390C1AD"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GameCatalogue/View/Game/GameListView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "39"
-            endingLineNumber = "39"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
             landmarkName = "body"
             landmarkType = "24">
          </BreakpointContent>
@@ -46,8 +78,8 @@
             filePath = "GameCatalogue/Network/APIService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "73"
-            endingLineNumber = "73"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
             landmarkName = "fetchGame(completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -62,8 +94,8 @@
             filePath = "GameCatalogue/Network/APIService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "66"
-            endingLineNumber = "66"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
             landmarkName = "fetchGame(completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -78,8 +110,8 @@
             filePath = "GameCatalogue/Network/APIService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "77"
-            endingLineNumber = "77"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
             landmarkName = "fetchGame(completion:)"
             landmarkType = "7">
             <Locations>
@@ -126,8 +158,8 @@
             filePath = "GameCatalogue/Network/APIService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "78"
-            endingLineNumber = "78"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
             landmarkName = "fetchGame(completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -142,8 +174,8 @@
             filePath = "GameCatalogue/Network/APIService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "67"
-            endingLineNumber = "67"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
             landmarkName = "fetchGame(completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -158,8 +190,8 @@
             filePath = "GameCatalogue/Network/APIService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "79"
-            endingLineNumber = "79"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
             landmarkName = "fetchGame(completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -174,8 +206,8 @@
             filePath = "GameCatalogue/ViewModel/GameDetailViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "23"
-            endingLineNumber = "23"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
             landmarkName = "loadgameDetailById(id:)"
             landmarkType = "7">
             <Locations>
@@ -222,8 +254,8 @@
             filePath = "GameCatalogue/ViewModel/GameDetailViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "26"
-            endingLineNumber = "26"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
             landmarkName = "loadgameDetailById(id:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -238,8 +270,8 @@
             filePath = "GameCatalogue/ViewModel/GameDetailViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "27"
-            endingLineNumber = "27"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
             landmarkName = "loadgameDetailById(id:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -248,14 +280,14 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "97694C08-259C-4D8E-98B1-F8E1A8D7BFFF"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GameCatalogue/Network/APIService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "46"
-            endingLineNumber = "46"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
             landmarkName = "fetchGameById(gameId:completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -270,8 +302,8 @@
             filePath = "GameCatalogue/Network/APIService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "40"
-            endingLineNumber = "40"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
             landmarkName = "fetchGameById(gameId:completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -286,8 +318,8 @@
             filePath = "GameCatalogue/Network/APIService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "43"
-            endingLineNumber = "43"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
             landmarkName = "fetchGameById(gameId:completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -302,8 +334,8 @@
             filePath = "GameCatalogue/Network/APIService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "42"
-            endingLineNumber = "42"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
             landmarkName = "fetchGameById(gameId:completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -318,39 +350,39 @@
             filePath = "GameCatalogue/Network/APIService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "37"
-            endingLineNumber = "37"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
             landmarkName = "fetchGameById(gameId:completion:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "A2F4B847-1BA5-4644-A9E9-ADD70FD2EA99 - 51528ed35fba262b"
+                  uuid = "A2F4B847-1BA5-4644-A9E9-ADD70FD2EA99 - 62811649c11ff026"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in GameCatalogue.APIService.fetchGameById(gameId: Swift.String, completion: (Swift.Optional&lt;GameCatalogue.GameDetail&gt;) -&gt; ()) -&gt; ()"
                   moduleName = "GameCatalogue"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/harisasrofi/workspace/iOSFundamental/Submission/GameCatalogue/GameCatalogue/Network/APIService.swift"
+                  urlString = "file:///Users/harisasrofi/workspace/iOSFundamental/NewSubmission/dicoding-ios-fundamental/GameCatalogue/Network/APIService.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "37"
-                  endingLineNumber = "37"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
                   offsetFromSymbolStart = "762">
                </Location>
                <Location
-                  uuid = "A2F4B847-1BA5-4644-A9E9-ADD70FD2EA99 - 51528ed35fba262b"
+                  uuid = "A2F4B847-1BA5-4644-A9E9-ADD70FD2EA99 - 62811649c11ff026"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in GameCatalogue.APIService.fetchGameById(gameId: Swift.String, completion: (Swift.Optional&lt;GameCatalogue.GameDetail&gt;) -&gt; ()) -&gt; ()"
                   moduleName = "GameCatalogue"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/harisasrofi/workspace/iOSFundamental/Submission/GameCatalogue/GameCatalogue/Network/APIService.swift"
+                  urlString = "file:///Users/harisasrofi/workspace/iOSFundamental/NewSubmission/dicoding-ios-fundamental/GameCatalogue/Network/APIService.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "37"
-                  endingLineNumber = "37"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
                   offsetFromSymbolStart = "846">
                </Location>
             </Locations>
@@ -360,14 +392,14 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "BDF469BB-AA1B-45E1-96DC-57582581C82D"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GameCatalogue/Network/APIService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "33"
-            endingLineNumber = "33"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
             landmarkName = "fetchGameById(gameId:completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -376,14 +408,14 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "01BB27C6-CF02-4DA9-BE40-D33EE6F5F592"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GameCatalogue/Network/APIService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "27"
-            endingLineNumber = "27"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
             landmarkName = "fetchGameById(gameId:completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -392,14 +424,14 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "79115D16-B584-455E-A62C-C9479D8E8AC4"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GameCatalogue/Network/APIService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
             landmarkName = "fetchGameById(gameId:completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -456,30 +488,14 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "02E29485-76EF-4A1A-A68C-DA92FF851585"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GameCatalogue/Network/APIService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "19"
-            endingLineNumber = "19"
-            landmarkName = "fetchGameById(gameId:completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "A1FE1A78-441D-46F1-856B-838179AD2065"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "GameCatalogue/Network/APIService.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "21"
-            endingLineNumber = "21"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
             landmarkName = "fetchGameById(gameId:completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -488,14 +504,14 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "02A12591-16AD-4634-AA96-FF6E5CF61905"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GameCatalogue/Network/APIService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "50"
-            endingLineNumber = "50"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
             landmarkName = "fetchGameById(gameId:completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -504,14 +520,14 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "30D32F80-324E-48E9-B1F8-2A4D90ABD6CC"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GameCatalogue/Network/APIService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "51"
-            endingLineNumber = "51"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
             landmarkName = "fetchGameById(gameId:completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -526,10 +542,533 @@
             filePath = "GameCatalogue/View/Game/GameDetailView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "76"
-            endingLineNumber = "76"
+            startingLineNumber = "89"
+            endingLineNumber = "89"
             landmarkName = "body"
             landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1B18F2AE-DAEE-4F5E-990E-7A311AE6AEE5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameCatalogue/ViewModel/FavoriteViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "fetchGameData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E40D1FDE-F83D-45C8-BC34-62066F5EE35F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameCatalogue/ViewModel/FavoriteViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "93"
+            endingLineNumber = "93"
+            landmarkName = "addDataToCoreData(game:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0B31E069-54CF-4763-B963-C2FF3468152E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameCatalogue/ViewModel/FavoriteViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "94"
+            endingLineNumber = "94"
+            landmarkName = "addDataToCoreData(game:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "702AB6EC-B218-4E21-BC27-DC6099EE4F9E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameCatalogue/ViewModel/FavoriteViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "fetchGameData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F7EFD4A0-0A1C-4718-8607-3BFE068EA3D8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameCatalogue/ViewModel/FavoriteViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
+            landmarkName = "save()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "58E77EB4-99D2-4DB4-8549-3D465C9337C4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameCatalogue/ViewModel/FavoriteViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "98"
+            endingLineNumber = "98"
+            landmarkName = "save()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BA8FD6EB-52BC-4A39-ADC6-18D98412F57A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameCatalogue/View/Game/GameDetailView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FA40267A-E647-4E9E-94CB-0476C185067A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameCatalogue/ViewModel/FavoriteViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "getGameDataById(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "192AC040-D355-4D34-8755-7E3DE39F3EEE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameCatalogue/ViewModel/FavoriteViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "getGameDataById(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F9044A71-A40A-49BB-9198-DF29BD91A297"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameCatalogue/ViewModel/FavoriteViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
+            landmarkName = "save()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7E3F0F35-4F31-429D-9080-48C2C3D11E0A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameCatalogue/ViewModel/FavoriteViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "getGameDataById(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "411BBADC-2D40-4BA3-B93E-13FC55D8A15E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameCatalogue/ViewModel/GameViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "loadData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "411BBADC-2D40-4BA3-B93E-13FC55D8A15E - 209bca596394f306"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GameCatalogue.GameViewModel.loadData() -&gt; ()"
+                  moduleName = "GameCatalogue"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/harisasrofi/workspace/iOSFundamental/NewSubmission/dicoding-ios-fundamental/GameCatalogue/ViewModel/GameViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "411BBADC-2D40-4BA3-B93E-13FC55D8A15E - 7b3da35a3a5de5dc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Array&lt;GameCatalogue.Game&gt;&gt;) -&gt; () in GameCatalogue.GameViewModel.loadData() -&gt; ()"
+                  moduleName = "GameCatalogue"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/harisasrofi/workspace/iOSFundamental/NewSubmission/dicoding-ios-fundamental/GameCatalogue/ViewModel/GameViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "82">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "430F8F73-809D-4EE5-BF12-91C57C4C13E0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameCatalogue/ViewModel/GameViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "loadData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "812A0417-EB8D-42D8-BB15-7D662F52E427"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameCatalogue/ViewModel/GameViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "loadData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B43B96E3-98C6-4160-87A4-FCE824752694"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameCatalogue/Network/APIService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "fetchGameById(gameId:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B43B96E3-98C6-4160-87A4-FCE824752694 - 62811649c11ff13e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in GameCatalogue.APIService.fetchGameById(gameId: Swift.String, completion: (Swift.Optional&lt;GameCatalogue.GameDetail&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "GameCatalogue"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/harisasrofi/workspace/iOSFundamental/NewSubmission/dicoding-ios-fundamental/GameCatalogue/Network/APIService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "2168">
+               </Location>
+               <Location
+                  uuid = "B43B96E3-98C6-4160-87A4-FCE824752694 - 39b1133d9aaaf122"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in GameCatalogue.APIService.fetchGameById(gameId: Swift.String, completion: (Swift.Optional&lt;GameCatalogue.GameDetail&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "GameCatalogue"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/harisasrofi/workspace/iOSFundamental/NewSubmission/dicoding-ios-fundamental/GameCatalogue/Network/APIService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "476">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6266166D-729D-404F-98E4-ACE8135CE0A8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameCatalogue/View/Game/GameListView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3E002ACA-9C4C-4E2B-B1F2-E14ED8541DAC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameCatalogue/View/Game/GameListView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1F3F211A-F1A7-42CA-B198-85A762C40601"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameCatalogue/View/Game/GameListView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "GameListView"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "1F3F211A-F1A7-42CA-B198-85A762C40601 - a3c089f1b13af793"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "property wrapper backing initializer of GameCatalogue.GameListView.gameViewModel : GameCatalogue.GameViewModel"
+                  moduleName = "GameCatalogue"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/harisasrofi/workspace/iOSFundamental/NewSubmission/dicoding-ios-fundamental/GameCatalogue/View/Game/GameListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  uuid = "1F3F211A-F1A7-42CA-B198-85A762C40601 - 64692659d1829ce7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GameCatalogue.GameListView.gameViewModel.getter : GameCatalogue.GameViewModel"
+                  moduleName = "GameCatalogue"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/harisasrofi/workspace/iOSFundamental/NewSubmission/dicoding-ios-fundamental/GameCatalogue/View/Game/GameListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "1F3F211A-F1A7-42CA-B198-85A762C40601 - e04b20a3219f8f3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GameCatalogue.GameListView.gameViewModel.setter : GameCatalogue.GameViewModel"
+                  moduleName = "GameCatalogue"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/harisasrofi/workspace/iOSFundamental/NewSubmission/dicoding-ios-fundamental/GameCatalogue/View/Game/GameListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "62">
+               </Location>
+               <Location
+                  uuid = "1F3F211A-F1A7-42CA-B198-85A762C40601 - 1809a2af1ee3c5e0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GameCatalogue.GameListView.gameViewModel.modify : GameCatalogue.GameViewModel"
+                  moduleName = "GameCatalogue"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/harisasrofi/workspace/iOSFundamental/NewSubmission/dicoding-ios-fundamental/GameCatalogue/View/Game/GameListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "1F3F211A-F1A7-42CA-B198-85A762C40601 - c991d14be4cb0faa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GameCatalogue.GameListView.gameViewModel.modify : GameCatalogue.GameViewModel with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "GameCatalogue"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/harisasrofi/workspace/iOSFundamental/NewSubmission/dicoding-ios-fundamental/GameCatalogue/View/Game/GameListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "1F3F211A-F1A7-42CA-B198-85A762C40601 - d17cdfcd927aec17"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GameCatalogue.GameListView.$gameViewModel.getter : SwiftUI.ObservedObject&lt;GameCatalogue.GameViewModel&gt;.Wrapper"
+                  moduleName = "GameCatalogue"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/harisasrofi/workspace/iOSFundamental/NewSubmission/dicoding-ios-fundamental/GameCatalogue/View/Game/GameListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "89">
+               </Location>
+               <Location
+                  uuid = "1F3F211A-F1A7-42CA-B198-85A762C40601 - 925c9c39265d521b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GameCatalogue.GameListView.init() -&gt; GameCatalogue.GameListView"
+                  moduleName = "GameCatalogue"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/harisasrofi/workspace/iOSFundamental/NewSubmission/dicoding-ios-fundamental/GameCatalogue/View/Game/GameListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "21">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "60D0B418-E962-44ED-8DB0-E709D2B14D0D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameCatalogue/ViewModel/GameViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "loadData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4F0199E6-4037-406B-93F9-78E9F91E0689"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameCatalogue/Network/APIService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "fetchGame(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CE3F9163-1FF3-4948-8D58-8C8285BD5598"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameCatalogue/Network/APIService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "fetchGame(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C4EC4D6B-705D-4647-921F-E89F680A3D72"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GameCatalogue/Network/APIService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "fetchGame(completion:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

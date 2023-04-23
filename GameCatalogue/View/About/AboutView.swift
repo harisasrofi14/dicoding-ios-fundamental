@@ -8,29 +8,52 @@
 import SwiftUI
 
 struct AboutView: View {
+    @State private var showEditDialog: Bool = false
+    @StateObject var settings = GameSettings()
+
     var body: some View {
-        VStack{
-            Image("profile")
-                .resizable()
-                .frame(width: 150.0, height: 150.0)
-                .clipShape(Circle())
-                .overlay(Circle().stroke(Color.white, lineWidth: 4))
-                .shadow(radius: 10)
-            Text("Haris Asrofi").font(.title)
+        VStack {
+            AsyncImage(url: URL(string: "https://ui-avatars.com/api/?name=\(settings.name?.addingPercentEncoding(withAllowedCharacters: .urlPathAllowed) ?? "-")/&background=random&rounded=true&size=128")) { image in
+                image.resizable()
+            } placeholder: {
+                ProgressView()
+            }
+            .frame(width: 100, height: 100)
+            Button {
+                showEditDialog = true
+            }label: {
+                Text("Edit")
+            }.cornerRadius(100).sheet(isPresented: $showEditDialog) {
+                ProfileSheetView().presentationDetents([.fraction(0.50), .fraction(0.60)])
+                    .presentationDragIndicator(.visible)
+            }
             
-            VStack(alignment: .leading){
-                HStack{
+            VStack(alignment: .leading) {
+                HStack {
+                    Image(systemName: "person.circle")
+                        .resizable()
+                        .foregroundColor(.orange)
+                      
+                        .frame(width: 25.0, height: 25.0)
+                    Text(settings.name ?? "-").font(.subheadline)
+                  
+                }
+                
+                HStack {
                     Image(systemName: "mail")
                         .resizable()
                         .foregroundColor(.orange)
                       
                         .frame(width: 25.0, height: 20.0)
-                    Text(verbatim:"harisasrofi14@gmail.com").font(.subheadline)
+                    Text(settings.email ?? "-").font(.subheadline)
+                  
                 }
             }
             
         }.navigationTitle(Text("About"))
+        .environmentObject(settings)
     }
+        
 }
 
 struct AboutView_Previews: PreviewProvider {

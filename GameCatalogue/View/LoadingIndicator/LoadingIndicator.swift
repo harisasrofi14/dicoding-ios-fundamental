@@ -8,17 +8,17 @@
 import SwiftUI
 
 struct LoadingIndicator: View {
+    
     @State var isDotLoading = false
+    
     var body: some View {
-        
-        HStack{
-            ForEach(0...4, id: \.self){
-                item in Circle()
-                    .frame(width: 10,height: 10)
+        HStack {
+            ForEach(0...4, id: \.self) { item in Circle()
+                    .frame(width: 10, height: 10)
                     .foregroundStyle(.orange)
                     .scaleEffect(isDotLoading ? 0:1)
                     .animation(.linear(duration: 0.6).repeatForever().delay(0.3 * Double(item)), value: isDotLoading)
-            }.onAppear{
+            }.onAppear {
                 isDotLoading = true
             }
         }
