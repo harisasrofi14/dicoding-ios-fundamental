@@ -48,8 +48,8 @@ struct ProfileSheetView: View {
                     .disabled(currentEmail.isEmpty || currentName.isEmpty)
             }.padding(10)
             .onAppear {
-                currentEmail = settings.email ?? ""
-                currentName = settings.name ?? ""
+                currentEmail = settings.email ?? "harisasrofi14@gmail.com"
+                currentName = settings.name ?? "Haris Asrofi"
             }
         }
     }

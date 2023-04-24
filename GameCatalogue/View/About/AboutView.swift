@@ -13,7 +13,7 @@ struct AboutView: View {
 
     var body: some View {
         VStack {
-            AsyncImage(url: URL(string: "https://ui-avatars.com/api/?name=\(settings.name?.addingPercentEncoding(withAllowedCharacters: .urlPathAllowed) ?? "-")/&background=random&rounded=true&size=128")) { image in
+            AsyncImage(url: URL(string: "https://ui-avatars.com/api/?name=\(settings.name?.addingPercentEncoding(withAllowedCharacters: .urlPathAllowed) ?? "Haris")/&background=random&rounded=true&size=128")) { image in
                 image.resizable()
             } placeholder: {
                 ProgressView()
@@ -35,7 +35,7 @@ struct AboutView: View {
                         .foregroundColor(.orange)
                       
                         .frame(width: 25.0, height: 25.0)
-                    Text(settings.name ?? "-").font(.subheadline)
+                    Text(settings.name ?? "Haris Asrofi").font(.subheadline)
                   
                 }
                 
@@ -45,7 +45,7 @@ struct AboutView: View {
                         .foregroundColor(.orange)
                       
                         .frame(width: 25.0, height: 20.0)
-                    Text(settings.email ?? "-").font(.subheadline)
+                    Text(settings.email ?? "harisasrofi14@gmail.com").font(.subheadline)
                   
                 }
             }
