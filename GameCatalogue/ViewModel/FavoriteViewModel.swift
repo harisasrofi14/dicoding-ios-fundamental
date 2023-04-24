@@ -25,12 +25,13 @@ class FavoriteViewModel: ObservableObject {
     func fetchGameData() {
         let request = NSFetchRequest<Games>(entityName: "Games")
         do {
+            self.empty = false
             self.loading = true
             let results = try viewContext.fetch(request)
+            games.removeAll()
             if results.isEmpty {
                 self.empty = true
             } else {
-                games.removeAll()
                 for result in results {
                     let game = Game(
                         id: result.value(forKeyPath: "id") as? Int ?? 0,
@@ -51,7 +52,6 @@ class FavoriteViewModel: ObservableObject {
     }
     
     func getGameDataById(_ id: Int) {
-        
             let fetchRequest = NSFetchRequest<NSManagedObject>(entityName: "Games")
                     fetchRequest.fetchLimit = 1
                     fetchRequest.predicate = NSPredicate(format: "id == \(id)")
@@ -59,7 +59,6 @@ class FavoriteViewModel: ObservableObject {
                 if (try self.viewContext.fetch(fetchRequest).first) != nil {
                     isExist = true
                 }
-                
             } catch let error as NSError {
                 print("Could not fetch. \(error), \(error.userInfo)")
             }
@@ -77,7 +76,6 @@ class FavoriteViewModel: ObservableObject {
                         isExist = false
                     }
         }
-        
     }
     
     func addDataToCoreData(game: GameDetail) {
